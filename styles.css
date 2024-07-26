@@ -1,0 +1,69 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    margin: 20px;
+}
+
+header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    background-color: #f9f9f9;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer form label, footer form input, footer form textarea, footer form button {
+    margin-bottom: 10px;
+}
